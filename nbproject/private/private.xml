@@ -10,11 +10,9 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/Tools/llvm_suit/llvm_new/llvmprojects-master/lib/Transforms/path-finder/PathCache.h</file>
-            <file>file:/Tools/llvm_suit/llvm_new/llvmprojects-master/lib/Transforms/path-finder/PathCache.cpp</file>
-            <file>file:/Tools/llvm_suit/llvm_new/llvmprojects-master/lib/Transforms/mypass/hw1.cpp1</file>
-            <file>file:/Tools/llvm_suit/llvm_new/llvmprojects-master/lib/Transforms/path-finder/path-finder.cpp</file>
-            <file>file:/Tools/llvm_suit/llvm_new/llvmprojects-master/tools/clang/tools/extra/marker-inserter/marker-inserter.cpp</file>
+            <file>file:/Tools/llvm_suit/llvm_new/llvmprojects-master/tools/clang/tools/extra/marker-inserter_mal2/marker-inserter_mal2.cpp</file>
+            <file>file:/Tools/llvm_suit/llvm_new/llvmprojects-master/tools/clang/tools/extra/marker-inserter_mal/marker-inserter_mal.cpp</file>
+            <file>file:/Tools/llvm_suit/llvm_new/llvmprojects-master/tools/clang/tools/extra/marker-inserter_Rob/marker-inserter_Rob.cpp</file>
         </group>
     </open-files>
 </project-private>

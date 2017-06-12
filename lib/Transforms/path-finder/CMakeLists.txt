@@ -12,7 +12,7 @@ endif()
 
 add_llvm_loadable_module( LLVMpath-finder
   path-finder.cpp
-
+  PathCache.cpp
   DEPENDS
   intrinsics_gen
   )

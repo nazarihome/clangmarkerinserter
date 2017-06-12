@@ -20321,6 +20321,246 @@
               <in>driver.cpp</in>
             </df>
             <df name="extra">
+              <df name="clang-apply-replacements">
+                <df name="include">
+                  <df name="clang-apply-replacements">
+                    <df name="Tooling">
+                      <in>ApplyReplacements.h</in>
+                    </df>
+                  </df>
+                </df>
+                <df name="lib">
+                  <df name="Tooling">
+                    <in>ApplyReplacements.cpp</in>
+                  </df>
+                </df>
+                <df name="tool">
+                  <in>CMakeLists.txt</in>
+                  <in>ClangApplyReplacementsMain.cpp</in>
+                </df>
+                <in>CMakeLists.txt</in>
+              </df>
+              <df name="clang-modernize">
+                <df name="AddOverride">
+                  <in>AddOverride.cpp</in>
+                  <in>AddOverride.h</in>
+                  <in>AddOverrideActions.cpp</in>
+                  <in>AddOverrideActions.h</in>
+                  <in>AddOverrideMatchers.cpp</in>
+                  <in>AddOverrideMatchers.h</in>
+                </df>
+                <df name="Core">
+                  <in>CMakeLists.txt</in>
+                  <in>CustomMatchers.h</in>
+                  <in>IncludeDirectives.cpp</in>
+                  <in>IncludeDirectives.h</in>
+                  <in>IncludeExcludeInfo.cpp</in>
+                  <in>IncludeExcludeInfo.h</in>
+                  <in>PerfSupport.cpp</in>
+                  <in>PerfSupport.h</in>
+                  <in>Refactoring.h</in>
+                  <in>ReplacementHandling.cpp</in>
+                  <in>ReplacementHandling.h</in>
+                  <in>Transform.cpp</in>
+                  <in>Transform.h</in>
+                  <in>Transforms.cpp</in>
+                  <in>Transforms.h</in>
+                </df>
+                <df name="LoopConvert">
+                  <in>LoopActions.cpp</in>
+                  <in>LoopActions.h</in>
+                  <in>LoopConvert.cpp</in>
+                  <in>LoopConvert.h</in>
+                  <in>LoopMatchers.cpp</in>
+                  <in>LoopMatchers.h</in>
+                  <in>StmtAncestor.cpp</in>
+                  <in>StmtAncestor.h</in>
+                  <in>VariableNaming.cpp</in>
+                  <in>VariableNaming.h</in>
+                </df>
+                <df name="PassByValue">
+                  <in>PassByValue.cpp</in>
+                  <in>PassByValue.h</in>
+                  <in>PassByValueActions.cpp</in>
+                  <in>PassByValueActions.h</in>
+                  <in>PassByValueMatchers.cpp</in>
+                  <in>PassByValueMatchers.h</in>
+                </df>
+                <df name="ReplaceAutoPtr">
+                  <in>ReplaceAutoPtr.cpp</in>
+                  <in>ReplaceAutoPtr.h</in>
+                  <in>ReplaceAutoPtrActions.cpp</in>
+                  <in>ReplaceAutoPtrActions.h</in>
+                  <in>ReplaceAutoPtrMatchers.cpp</in>
+                  <in>ReplaceAutoPtrMatchers.h</in>
+                </df>
+                <df name="tool">
+                  <in>CMakeLists.txt</in>
+                  <in>ClangModernize.cpp</in>
+                </df>
+                <df name="UseAuto">
+                  <in>UseAuto.cpp</in>
+                  <in>UseAuto.h</in>
+                  <in>UseAutoActions.cpp</in>
+                  <in>UseAutoActions.h</in>
+                  <in>UseAutoMatchers.cpp</in>
+                  <in>UseAutoMatchers.h</in>
+                </df>
+                <df name="UseNullptr">
+                  <in>NullptrActions.cpp</in>
+                  <in>NullptrActions.h</in>
+                  <in>NullptrMatchers.cpp</in>
+                  <in>NullptrMatchers.h</in>
+                  <in>UseNullptr.cpp</in>
+                  <in>UseNullptr.h</in>
+                </df>
+                <in>CMakeLists.txt</in>
+              </df>
+              <df name="clang-query">
+                <df name="tool">
+                  <in>CMakeLists.txt</in>
+                  <in>ClangQuery.cpp</in>
+                </df>
+                <in>CMakeLists.txt</in>
+                <in>Query.cpp</in>
+                <in>Query.h</in>
+                <in>QueryParser.cpp</in>
+                <in>QueryParser.h</in>
+                <in>QuerySession.h</in>
+              </df>
+              <df name="clang-rename">
+                <df name="tool">
+                  <in>CMakeLists.txt</in>
+                  <in>ClangRename.cpp</in>
+                </df>
+                <in>CMakeLists.txt</in>
+                <in>RenamingAction.cpp</in>
+                <in>RenamingAction.h</in>
+                <in>USRFinder.cpp</in>
+                <in>USRFinder.h</in>
+                <in>USRFindingAction.cpp</in>
+                <in>USRFindingAction.h</in>
+                <in>USRLocFinder.cpp</in>
+                <in>USRLocFinder.h</in>
+              </df>
+              <df name="clang-tidy">
+                <df name="google">
+                  <in>AvoidCStyleCastsCheck.cpp</in>
+                  <in>AvoidCStyleCastsCheck.h</in>
+                  <in>CMakeLists.txt</in>
+                  <in>ExplicitConstructorCheck.cpp</in>
+                  <in>ExplicitConstructorCheck.h</in>
+                  <in>ExplicitMakePairCheck.cpp</in>
+                  <in>ExplicitMakePairCheck.h</in>
+                  <in>GlobalNamesInHeadersCheck.cpp</in>
+                  <in>GlobalNamesInHeadersCheck.h</in>
+                  <in>GoogleTidyModule.cpp</in>
+                  <in>IntegerTypesCheck.cpp</in>
+                  <in>IntegerTypesCheck.h</in>
+                  <in>MemsetZeroLengthCheck.cpp</in>
+                  <in>MemsetZeroLengthCheck.h</in>
+                  <in>OverloadedUnaryAndCheck.cpp</in>
+                  <in>OverloadedUnaryAndCheck.h</in>
+                  <in>StringReferenceMemberCheck.cpp</in>
+                  <in>StringReferenceMemberCheck.h</in>
+                  <in>TodoCommentCheck.cpp</in>
+                  <in>TodoCommentCheck.h</in>
+                  <in>UnnamedNamespaceInHeaderCheck.cpp</in>
+                  <in>UnnamedNamespaceInHeaderCheck.h</in>
+                  <in>UsingNamespaceDirectiveCheck.cpp</in>
+                  <in>UsingNamespaceDirectiveCheck.h</in>
+                </df>
+                <df name="llvm">
+                  <in>CMakeLists.txt</in>
+                  <in>HeaderGuardCheck.cpp</in>
+                  <in>HeaderGuardCheck.h</in>
+                  <in>IncludeOrderCheck.cpp</in>
+                  <in>IncludeOrderCheck.h</in>
+                  <in>LLVMTidyModule.cpp</in>
+                  <in>TwineLocalCheck.cpp</in>
+                  <in>TwineLocalCheck.h</in>
+                </df>
+                <df name="misc">
+                  <in>ArgumentCommentCheck.cpp</in>
+                  <in>ArgumentCommentCheck.h</in>
+                  <in>AssertSideEffectCheck.cpp</in>
+                  <in>AssertSideEffectCheck.h</in>
+                  <in>AssignOperatorSignatureCheck.cpp</in>
+                  <in>AssignOperatorSignatureCheck.h</in>
+                  <in>BoolPointerImplicitConversionCheck.cpp</in>
+                  <in>BoolPointerImplicitConversionCheck.h</in>
+                  <in>CMakeLists.txt</in>
+                  <in>InaccurateEraseCheck.cpp</in>
+                  <in>InaccurateEraseCheck.h</in>
+                  <in>InefficientAlgorithmCheck.cpp</in>
+                  <in>InefficientAlgorithmCheck.h</in>
+                  <in>MacroParenthesesCheck.cpp</in>
+                  <in>MacroParenthesesCheck.h</in>
+                  <in>MacroRepeatedSideEffectsCheck.cpp</in>
+                  <in>MacroRepeatedSideEffectsCheck.h</in>
+                  <in>MiscTidyModule.cpp</in>
+                  <in>NoexceptMoveConstructorCheck.cpp</in>
+                  <in>NoexceptMoveConstructorCheck.h</in>
+                  <in>StaticAssertCheck.cpp</in>
+                  <in>StaticAssertCheck.h</in>
+                  <in>SwappedArgumentsCheck.cpp</in>
+                  <in>SwappedArgumentsCheck.h</in>
+                  <in>UndelegatedConstructor.cpp</in>
+                  <in>UndelegatedConstructor.h</in>
+                  <in>UniqueptrResetReleaseCheck.cpp</in>
+                  <in>UniqueptrResetReleaseCheck.h</in>
+                  <in>UnusedRAIICheck.cpp</in>
+                  <in>UnusedRAIICheck.h</in>
+                  <in>UseOverrideCheck.cpp</in>
+                  <in>UseOverrideCheck.h</in>
+                </df>
+                <df name="readability">
+                  <in>BracesAroundStatementsCheck.cpp</in>
+                  <in>BracesAroundStatementsCheck.h</in>
+                  <in>CMakeLists.txt</in>
+                  <in>ContainerSizeEmptyCheck.cpp</in>
+                  <in>ContainerSizeEmptyCheck.h</in>
+                  <in>ElseAfterReturnCheck.cpp</in>
+                  <in>ElseAfterReturnCheck.h</in>
+                  <in>FunctionSizeCheck.cpp</in>
+                  <in>FunctionSizeCheck.h</in>
+                  <in>NamedParameterCheck.cpp</in>
+                  <in>NamedParameterCheck.h</in>
+                  <in>NamespaceCommentCheck.cpp</in>
+                  <in>NamespaceCommentCheck.h</in>
+                  <in>ReadabilityTidyModule.cpp</in>
+                  <in>RedundantSmartptrGetCheck.cpp</in>
+                  <in>RedundantSmartptrGetCheck.h</in>
+                  <in>RedundantStringCStrCheck.cpp</in>
+                  <in>RedundantStringCStrCheck.h</in>
+                  <in>ShrinkToFitCheck.cpp</in>
+                  <in>ShrinkToFitCheck.h</in>
+                  <in>SimplifyBooleanExprCheck.cpp</in>
+                  <in>SimplifyBooleanExprCheck.h</in>
+                </df>
+                <df name="tool">
+                  <in>CMakeLists.txt</in>
+                  <in>ClangTidyMain.cpp</in>
+                </df>
+                <df name="utils">
+                  <in>CMakeLists.txt</in>
+                  <in>HeaderGuard.cpp</in>
+                  <in>HeaderGuard.h</in>
+                </df>
+                <in>CMakeLists.txt</in>
+                <in>ClangTidy.cpp</in>
+                <in>ClangTidy.h</in>
+                <in>ClangTidyDiagnosticConsumer.cpp</in>
+                <in>ClangTidyDiagnosticConsumer.h</in>
+                <in>ClangTidyModule.cpp</in>
+                <in>ClangTidyModule.h</in>
+                <in>ClangTidyModuleRegistry.h</in>
+                <in>ClangTidyOptions.cpp</in>
+                <in>ClangTidyOptions.h</in>
+              </df>
+              <df name="docs">
+                <in>README.txt</in>
+              </df>
               <df name="loop-convert">
                 <in>CMakeLists.txt</in>
                 <in>LoopActions.h</in>
@@ -20331,7 +20571,426 @@
                 <in>CMakeLists.txt</in>
                 <in>marker-inserter.cpp</in>
               </df>
+              <df name="marker-inserter_mal">
+                <in>CMakeLists.txt</in>
+                <in>marker-inserter_mal.cpp</in>
+              </df>
+              <df name="marker-inserter_mal (copy)">
+                <in>CMakeLists.txt</in>
+                <in>marker-inserter_mal.cpp</in>
+              </df>
+              <df name="marker-inserter_mal2">
+                <in>CMakeLists.txt</in>
+                <in>marker-inserter_mal.cpp</in>
+              </df>
+              <df name="marker-inserter_Rob">
+                <in>CMakeLists.txt</in>
+                <in>marker-inserter_Rob.cpp</in>
+              </df>
+              <df name="marker-inserter_Rob (copy)">
+                <in>CMakeLists.txt</in>
+                <in>marker-inserter_Rob.cpp</in>
+              </df>
+              <df name="marker_inserter-mal">
+                <in>CMakeLists.txt</in>
+                <in>marker-inserter_mal.cpp</in>
+              </df>
+              <df name="marker_inserter_mal">
+                <in>CMakeLists.txt</in>
+                <in>marker-inserter_mal.cpp</in>
+              </df>
+              <df name="marker_inserter_maldetection">
+                <in>CMakeLists.txt</in>
+                <in>marker-inserter_Rob.cpp</in>
+              </df>
+              <df name="modularize">
+                <in>CMakeLists.txt</in>
+                <in>CoverageChecker.cpp</in>
+                <in>CoverageChecker.h</in>
+                <in>Modularize.cpp</in>
+                <in>Modularize.h</in>
+                <in>ModularizeUtilities.cpp</in>
+                <in>ModularizeUtilities.h</in>
+                <in>ModuleAssistant.cpp</in>
+                <in>PreprocessorTracker.cpp</in>
+                <in>PreprocessorTracker.h</in>
+              </df>
+              <df name="pp-trace">
+                <in>CMakeLists.txt</in>
+                <in>PPCallbacksTracker.cpp</in>
+                <in>PPCallbacksTracker.h</in>
+                <in>PPTrace.cpp</in>
+              </df>
+              <df name="test">
+                <df name="clang-apply-replacements">
+                  <df name="Inputs">
+                    <df name="basic">
+                      <in>basic.h</in>
+                    </df>
+                    <df name="conflict">
+                      <in>common.h</in>
+                      <in>expected.txt</in>
+                    </df>
+                    <df name="crlf">
+                      <in>crlf.cpp</in>
+                    </df>
+                    <df name="format">
+                      <in>no.cpp</in>
+                      <in>yes.cpp</in>
+                    </df>
+                  </df>
+                  <in>basic.cpp</in>
+                  <in>conflict.cpp</in>
+                  <in>crlf.cpp</in>
+                  <in>format.cpp</in>
+                </df>
+                <df name="clang-modernize">
+                  <df name="AddOverride">
+                    <in>basic.cpp</in>
+                    <in>pure_specifier_fail.cpp</in>
+                  </df>
+                  <df name="Combined">
+                    <in>combined.cpp</in>
+                    <in>compilers.cpp</in>
+                  </df>
+                  <df name="Compilations">
+                    <df name="Inputs">
+                      <in>compilations.cpp</in>
+                      <in>compilations_expected.cpp</in>
+                      <in>cpp11.cpp</in>
+                      <in>cpp11_expected.cpp</in>
+                    </df>
+                    <in>compilation_inc.cpp</in>
+                    <in>compilation_inc_sources.cpp</in>
+                    <in>compilation_not_inc.cpp</in>
+                    <in>detect_from_path.cpp</in>
+                    <in>detect_from_source.cpp</in>
+                    <in>fixed_comp.cpp</in>
+                    <in>fixed_comp_inc.cpp</in>
+                    <in>no_compilation.cpp</in>
+                  </df>
+                  <df name="Core">
+                    <df name="Inputs">
+                    </df>
+                    <in>Reformatting.cpp</in>
+                  </df>
+                  <df name="HeaderReplacements">
+                    <df name="Inputs">
+                      <in>no_yaml.h</in>
+                    </df>
+                    <in>common.cpp</in>
+                    <in>common.h</in>
+                    <in>main.cpp</in>
+                    <in>no_yaml.cpp</in>
+                  </df>
+                  <df name="LoopConvert">
+                    <df name="Inputs">
+                      <in>macro_problem.h</in>
+                      <in>negative-header.h</in>
+                      <in>structures.h</in>
+                    </df>
+                    <in>array.cpp</in>
+                    <in>confidence.cpp</in>
+                    <in>dependency.cpp</in>
+                    <in>free_begin_end_fail.cpp</in>
+                    <in>iterator.cpp</in>
+                    <in>macro_problem.cpp</in>
+                    <in>naming-alias.cpp</in>
+                    <in>naming-conflict.cpp</in>
+                    <in>negative-iterator.cpp</in>
+                    <in>negative-multi-end-call.cpp</in>
+                    <in>negative-pseudoarray-extra.cpp</in>
+                    <in>negative-pseudoarray.cpp</in>
+                    <in>negative.cpp</in>
+                    <in>nesting.cpp</in>
+                    <in>nocompile.cpp</in>
+                    <in>pseudoarray.cpp</in>
+                    <in>single-iterator.cpp</in>
+                  </df>
+                  <df name="PassByValue">
+                    <in>basic.cpp</in>
+                    <in>basic.h</in>
+                  </df>
+                  <df name="ReplaceAutoPtr">
+                    <df name="Inputs">
+                      <in>basic.h</in>
+                      <in>memory_stub.h</in>
+                    </df>
+                    <in>basic.cpp</in>
+                    <in>move.cpp</in>
+                    <in>template_fail.cpp</in>
+                  </df>
+                  <df name="UseAuto">
+                    <df name="Inputs">
+                      <in>test_std_container.h</in>
+                    </df>
+                    <in>basic_iterator_tests.cpp</in>
+                    <in>iterator.cpp</in>
+                    <in>new.cpp</in>
+                    <in>new_cv_failing.cpp</in>
+                  </df>
+                  <df name="UseNullptr">
+                    <df name="Inputs">
+                      <in>basic.h</in>
+                    </df>
+                    <in>basic.cpp</in>
+                    <in>basic_failing.cpp</in>
+                    <in>macros.cpp</in>
+                    <in>nullptr_t.cpp</in>
+                  </df>
+                </df>
+                <df name="clang-query">
+                  <df name="Inputs">
+                  </df>
+                  <in>errors.c</in>
+                  <in>function-decl.c</in>
+                </df>
+                <df name="clang-rename">
+                  <in>VarTest.cpp</in>
+                </df>
+                <df name="clang-tidy">
+                  <df name="Inputs">
+                    <df name="config-files">
+                      <df name="1">
+                      </df>
+                      <df name="2">
+                      </df>
+                    </df>
+                    <df name="file-filter">
+                      <df name="system">
+                        <in>system-header.h</in>
+                      </df>
+                      <in>header1.h</in>
+                      <in>header2.h</in>
+                    </df>
+                    <df name="Headers">
+                      <df name="clang">
+                        <in>b.h</in>
+                      </df>
+                      <df name="clang-c">
+                        <in>c.h</in>
+                      </df>
+                      <df name="gtest">
+                        <in>foo.h</in>
+                      </df>
+                      <df name="llvm">
+                        <in>a.h</in>
+                      </df>
+                      <df name="llvm-c">
+                        <in>d.h</in>
+                      </df>
+                      <in>a.h</in>
+                      <in>b.h</in>
+                      <in>i.h</in>
+                      <in>j.h</in>
+                      <in>s.h</in>
+                    </df>
+                    <df name="line-filter">
+                      <in>header1.h</in>
+                      <in>header2.h</in>
+                      <in>header3.h</in>
+                    </df>
+                    <in>google-namespaces.h</in>
+                  </df>
+                  <in>arg-comments.cpp</in>
+                  <in>basic.cpp</in>
+                  <in>clang-tidy-diff.cpp</in>
+                  <in>config-files.cpp</in>
+                  <in>deduplication.cpp</in>
+                  <in>diagnostic.cpp</in>
+                  <in>file-filter.cpp</in>
+                  <in>fix-errors.cpp</in>
+                  <in>fix.cpp</in>
+                  <in>google-explicit-constructor.cpp</in>
+                  <in>google-explicit-make-pair.cpp</in>
+                  <in>google-member-string-references.cpp</in>
+                  <in>google-memset-zero-length.cpp</in>
+                  <in>google-module.cpp</in>
+                  <in>google-namespaces.cpp</in>
+                  <in>google-overloaded-unary-and.cpp</in>
+                  <in>google-readability-casting.c</in>
+                  <in>google-readability-casting.cpp</in>
+                  <in>google-readability-namespace-comments.cpp</in>
+                  <in>google-readability-todo.cpp</in>
+                  <in>google-runtime-int.c</in>
+                  <in>google-runtime-int.cpp</in>
+                  <in>line-filter.cpp</in>
+                  <in>llvm-include-order.cpp</in>
+                  <in>llvm-twine-local.cpp</in>
+                  <in>macros.cpp</in>
+                  <in>misc-assert-side-effect.cpp</in>
+                  <in>misc-assign-operator-signature.cpp</in>
+                  <in>misc-bool-pointer-implicit-conversion.cpp</in>
+                  <in>misc-inaccurate-erase.cpp</in>
+                  <in>misc-inefficient-algorithm.cpp</in>
+                  <in>misc-macro-parentheses.cpp</in>
+                  <in>misc-noexcept-move-constructor.cpp</in>
+                  <in>misc-repeated-side-effects-in-macro.c</in>
+                  <in>misc-static-assert.cpp</in>
+                  <in>misc-swapped-arguments.cpp</in>
+                  <in>misc-undelegated-constructor.cpp</in>
+                  <in>misc-uniqueptr-reset-release.cpp</in>
+                  <in>misc-unused-raii.cpp</in>
+                  <in>misc-use-override-cxx98.cpp</in>
+                  <in>misc-use-override.cpp</in>
+                  <in>nolint.cpp</in>
+                  <in>readability-braces-around-statements-few-lines.cpp</in>
+                  <in>readability-braces-around-statements-same-line.cpp</in>
+                  <in>readability-braces-around-statements-single-line.cpp</in>
+                  <in>readability-braces-around-statements.cpp</in>
+                  <in>readability-container-size-empty.cpp</in>
+                  <in>readability-else-after-return.cpp</in>
+                  <in>readability-function-size.cpp</in>
+                  <in>readability-named-parameter.cpp</in>
+                  <in>readability-redundant-smartptr-get.cpp</in>
+                  <in>readability-redundant-string-cstr.cpp</in>
+                  <in>readability-shrink-to-fit.cpp</in>
+                  <in>readability-simplify-bool-expr-chained-conditional-assignment.cpp</in>
+                  <in>readability-simplify-bool-expr-chained-conditional-return.cpp</in>
+                  <in>readability-simplify-bool-expr.cpp</in>
+                  <in>select-checks.cpp</in>
+                  <in>serialize-diagnostics.cpp</in>
+                  <in>static-analyzer-config.cpp</in>
+                  <in>static-analyzer.cpp</in>
+                  <in>temporaries.cpp</in>
+                  <in>validate-check-names.cpp</in>
+                </df>
+                <df name="modularize">
+                  <df name="Inputs">
+                    <df name="CompileError">
+                      <in>HasError.h</in>
+                      <in>Level1A.h</in>
+                    </df>
+                    <df name="CoverageNoProblems">
+                      <df name="Includes1">
+                        <in>Level1A.h</in>
+                      </df>
+                      <df name="Includes2">
+                        <in>Level2A.h</in>
+                      </df>
+                      <df name="NonIncludes">
+                        <in>Level3A.h</in>
+                      </df>
+                    </df>
+                    <df name="CoverageProblems">
+                      <df name="Sub">
+                        <in>Level3B.h</in>
+                      </df>
+                      <df name="UmbrellaSub">
+                        <in>Umbrell1.h</in>
+                        <in>Umbrell2.h</in>
+                      </df>
+                      <in>Level1A.h</in>
+                      <in>Level1B.h</in>
+                      <in>Level2A.h</in>
+                      <in>Level2B.h</in>
+                      <in>Level3A.h</in>
+                      <in>UmbrellaFile.h</in>
+                      <in>UmbrellaInclude1.h</in>
+                      <in>UmbrellaInclude2.h</in>
+                    </df>
+                    <df name="MissingHeader">
+                      <in>Level1A.h</in>
+                    </df>
+                    <df name="SubModule1">
+                      <in>Header1.h</in>
+                      <in>Header2.h</in>
+                    </df>
+                    <df name="SubModule2">
+                      <in>Header3.h</in>
+                      <in>Header4.h</in>
+                    </df>
+                    <in>Anonymous.h</in>
+                    <in>DuplicateHeader1.h</in>
+                    <in>DuplicateHeader2.h</in>
+                    <in>Empty.h</in>
+                    <in>HeaderGuard.h</in>
+                    <in>HeaderGuardSub1.h</in>
+                    <in>HeaderGuardSub2.h</in>
+                    <in>HeaderGuardSubSub.h</in>
+                    <in>HeaderGuardSubSubDefined.h</in>
+                    <in>IncludeInExtern.h</in>
+                    <in>IncludeInNamespace.h</in>
+                    <in>InconsistentHeader1.h</in>
+                    <in>InconsistentHeader2.h</in>
+                    <in>InconsistentSubHeader.h</in>
+                    <in>IsDependent.h</in>
+                    <in>NamespaceClasses.h</in>
+                    <in>NestedMacro.h</in>
+                    <in>SomeDecls.h</in>
+                    <in>SomeOtherTypes.h</in>
+                    <in>SomeTypes.h</in>
+                    <in>TemplateClasses.h</in>
+                  </df>
+                  <in>SubModule2.h</in>
+                </df>
+                <df name="pp-trace">
+                  <df name="Inputs">
+                    <in>Level1A.h</in>
+                    <in>Level1B.h</in>
+                    <in>Level2A.h</in>
+                    <in>Level2B.h</in>
+                    <in>ModularizeList.txt</in>
+                  </df>
+                  <in>pp-trace-conditional.cpp</in>
+                  <in>pp-trace-ident.cpp</in>
+                  <in>pp-trace-include.cpp</in>
+                  <in>pp-trace-macro.cpp</in>
+                  <in>pp-trace-modules.cpp</in>
+                  <in>pp-trace-pragma-general.cpp</in>
+                  <in>pp-trace-pragma-ms.cpp</in>
+                  <in>pp-trace-pragma-opencl.cpp</in>
+                </df>
+                <df name="Unit">
+                </df>
+                <in>CMakeLists.txt</in>
+              </df>
+              <df name="tool-template">
+                <in>CMakeLists.txt</in>
+                <in>ToolTemplate.cpp</in>
+              </df>
+              <df name="unittests">
+                <df name="clang-apply-replacements">
+                  <in>CMakeLists.txt</in>
+                  <in>ReformattingTest.cpp</in>
+                </df>
+                <df name="clang-modernize">
+                  <in>CMakeLists.txt</in>
+                  <in>IncludeDirectivesTest.cpp</in>
+                  <in>IncludeExcludeTest.cpp</in>
+                  <in>PerfSupportTest.cpp</in>
+                  <in>TransformTest.cpp</in>
+                  <in>UniqueHeaderNameTest.cpp</in>
+                </df>
+                <df name="clang-query">
+                  <in>CMakeLists.txt</in>
+                  <in>QueryEngineTest.cpp</in>
+                  <in>QueryParserTest.cpp</in>
+                </df>
+                <df name="clang-rename">
+                  <in>CMakeLists.txt</in>
+                  <in>USRLocFindingTest.cpp</in>
+                </df>
+                <df name="clang-tidy">
+                  <in>CMakeLists.txt</in>
+                  <in>ClangTidyDiagnosticConsumerTest.cpp</in>
+                  <in>ClangTidyOptionsTest.cpp</in>
+                  <in>ClangTidyTest.h</in>
+                  <in>GoogleModuleTest.cpp</in>
+                  <in>LLVMModuleTest.cpp</in>
+                  <in>MiscModuleTest.cpp</in>
+                  <in>ReadabilityModuleTest.cpp</in>
+                </df>
+                <df name="include">
+                  <df name="common">
+                    <in>Utility.h</in>
+                    <in>VirtualFileHelper.h</in>
+                  </df>
+                </df>
+                <in>CMakeLists.txt</in>
+              </df>
               <in>CMakeLists.txt</in>
+              <in>README.txt</in>
             </df>
             <df name="libclang">
               <in>ARCMigrate.cpp</in>
